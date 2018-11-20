@@ -16,7 +16,6 @@ export default class HomeComponent extends Component {
       '전새암',
       '염태규',
       '염종인',
-      '문성환',
       '김강일',
       '강성찬',
       '한태정',
@@ -90,8 +89,7 @@ export default class HomeComponent extends Component {
     const projects = this.shuffle([
       {
         title: '쿠잉 - 유튜브로 배우는 현지 영어',
-        description:
-          '메가넥스트의 셀프 영어 학습 앱, 쿠잉의 안드로이드 및 iOS 버전을 개발하였습니다.',
+        description: '메가넥스트의 셀프 영어 학습 앱, 쿠잉의 안드로이드/iOS/웹 버전을 개발하였습니다.',
         btns: [
           {
             text: 'Android',
@@ -181,13 +179,13 @@ export default class HomeComponent extends Component {
         ]
       },
       {
-        title: '콘텐타',
+        title: '스튜디오온스타일',
         description:
-          '작가와 글 주문자를 온라인 연결하는 중개 플랫폼을 Node.js 기반으로 개발하였습니다.',
+          'CJ E&M이 운영하는 스튜디오온스타일 블로그 개발 및 FB Instant Articles 연동 부문을 컨설팅하였습니다.',
         btns: [
           {
             text: 'Web',
-            link: 'http://www.contenta.co'
+            link: 'https://www.studionstyle.com/'
           }
         ]
       },
