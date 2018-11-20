@@ -1,0 +1,163 @@
+/* payment */
+#payment {
+  min-height: calc(100vh - 182px);
+  padding-top: 100px;
+  padding-bottom: 132px;
+}
+#payment .payment-title {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#payment .section-products {
+  margin-bottom: 10px;
+}
+#payment .section-products .row {
+  margin-left: -4.5px;
+  margin-right: -4.5px;
+}
+#payment .section-products .row > * {
+  padding-left: 4.5px;
+  padding-right: 4.5px;
+}
+#payment .section-products .product-card {
+  padding: 15px 20px;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+#payment .section-products .product-card.active,
+#payment .section-products .product-card:hover {
+  outline: solid 1px #0039a6;
+}
+#payment .section-products .product-card .card__header {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.33;
+  padding-bottom: 12px;
+  position: relative;
+  margin-bottom: 10px;
+}
+#payment .section-products .product-card .card__header:after {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: #0039a6;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+#payment .section-products .product-card .card__body {
+  height: 98px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+#payment .section-products .product-card .card__body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#payment .section-products .product-card .card__body ul li {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding-left: 10px;
+  position: relative;
+}
+#payment .section-products .product-card .card__body ul li:before {
+  content: "-";
+  position: absolute;
+  left: 0;
+}
+#payment .section-products .product-card .card__price {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+#payment .section-form {
+  background-color: #fafafa;
+  border: solid 1px #0039a6;
+  padding-top: 18px;
+}
+#payment .section-form .form-title {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.33;
+  padding: 0 20px 12px;
+  position: relative;
+  margin-bottom: 12px;
+}
+#payment .section-form .form-title:after {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: #0039a6;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+#payment .section-form .form-price {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 42px;
+  padding: 0 20px;
+}
+#payment .section-form .form {
+  padding: 0 20px 28px;
+}
+#payment .section-form .form .form-group {
+  margin-bottom: 32px;
+}
+#payment .section-form .form label {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+#payment .section-form .form input.form-control {
+  height: 45px;
+  border: solid 1px #f3f3f3;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+  font-size: 12px;
+  color: #0039a6;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#payment .section-form .btn {
+  height: 45px;
+  background-color: #0039a6;
+  width: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  border-radius: 0;
+}
+#payment .section-form .btn:focus {
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  #payment {
+    min-height: calc(100vh - 300px);
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+  #payment .section-products .product-card {
+    margin-bottom: 13px;
+  }
+
+  #payment .section-form {
+    padding-top: 15px;
+  }
+  #payment .section-form .form-price {
+    margin-bottom: 17px;
+  }
+}
