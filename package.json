@@ -9,6 +9,7 @@
     "@zeit/next-sass": "^1.0.1",
     "next": "^7.0.2",
     "node-sass": "^4.10.0",
+    "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-bootstrap": "^0.32.4",
     "react-c3js": "^0.1.20",
