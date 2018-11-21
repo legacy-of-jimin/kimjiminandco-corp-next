@@ -252,6 +252,39 @@ export default class HomeComponent extends Component {
           </div>
           <section className="section section-ourstories">
             <div className="section__header">
+              <div className="section__header__title">AVAILABILITY</div>
+              <div className="section__header__desc">
+              <table className="table">
+                <thead>
+                  <tr>
+                    <th>Team</th>
+                    <th>Availability</th>
+                  </tr>
+                  <tr>
+                    <td>Web / Publishing</td>
+                    <td>12월 중순 이후부터 모든 규모의 프로젝트를 바로 착수할 수 있습니다.</td>
+                  </tr>
+                  <tr>
+                    <td>Design</td>
+                    <td>1개월 이내 규모의 프로젝트를 10일 이내 착수할 수 있습니다.</td>
+                  </tr>
+                  <tr>
+                    <td>iOS</td>
+                    <td>1개월 이내 규모의 프로젝트를 바로 착수할 수 있습니다.</td>
+                  </tr>
+                  <tr>
+                    <td>Android</td>
+                    <td>모든 규모의 프로젝트를 바로 착수할 수 있습니다.</td>
+                  </tr>
+                </thead>
+              </table>
+              <p>* 2018년 11월 21일 기준입니다.</p>
+              </div>
+            </div>
+          </section>
+          
+          <section className="section section-ourstories">
+            <div className="section__header">
               <div className="section__header__title">WE MADE</div>
               <div className="section__header__desc">
                 사내 아이디어로 만든 자체 서비스입니다.
