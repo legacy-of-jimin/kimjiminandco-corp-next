@@ -14,7 +14,6 @@ export default class HomeComponent extends Component {
       '이진규',
       '이다정',
       '전새암',
-      '염태규',
       '염종인',
       '김강일',
       '강성찬',
@@ -223,10 +222,11 @@ export default class HomeComponent extends Component {
             '2014-12-31',
             '2015-12-31',
             '2016-12-31',
-            '2017-12-31'
+            '2017-12-31',
+            '2018-12-31'
           ],
-          ['연간 매출액(억 원)', 0.2348, 0.833, 1.9166, 2.8082, 4.1],
-          ['상시 고용 인원(명)', 2, 4, 3, 3, 14]
+          ['연간 매출액(억 원)', 0.2348, 0.833, 1.9166, 2.8082, 4.1, 6.6751],
+          ['상시 고용 인원(명)', 2, 4, 3, 3, 14, 13]
         ]
       },
       color: {
@@ -270,7 +270,7 @@ export default class HomeComponent extends Component {
                   </tr>
                   <tr>
                     <td>iOS</td>
-                    <td>모든 규모의 프로젝트를 바로 착수할 수 있습니다.</td>
+                    <td>1개월 이내 규모의 프로젝트를 15일 이내 착수할 수 있습니다.</td>
                   </tr>
                   <tr>
                     <td>Android</td>
@@ -278,7 +278,7 @@ export default class HomeComponent extends Component {
                   </tr>
                 </thead>
               </table>
-              <p>* 2018년 12월 14일 기준입니다.</p>
+              <p>* 2018년 12월 31일 기준입니다.</p>
               </div>
             </div>
           </section>
