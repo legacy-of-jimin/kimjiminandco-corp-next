@@ -262,7 +262,7 @@ export default class HomeComponent extends Component {
                   </tr>
                   <tr>
                     <td>Web / Publishing</td>
-                    <td>모든 규모의 프로젝트를 바로 착수할 수 있습니다.</td>
+                    <td>2월 말부터 모든 규모의 프로젝트를 착수할 수 있습니다.</td>
                   </tr>
                   <tr>
                     <td>Design</td>
