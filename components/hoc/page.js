@@ -45,7 +45,9 @@ export default ComposedComponent => class extends React.Component {
       }
     })()
 
-    IMP.init('imp78122789')
+    if (typeof IMP != "undefined") {
+      IMP.init('imp78122789')
+    }
 
     if (window.location.host === 'www.kimjiminand.co') {
       //ReactGA.initialize('UA-44484721-1');
