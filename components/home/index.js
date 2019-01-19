@@ -460,6 +460,47 @@ export default class HomeComponent extends Component {
                   axis={c3Options.axis}
                   color={c3Options.color}
                 />
+                <div style={{marginTop: '24px'}}>
+                  <table className="table">
+                    <colgroup>
+                      <col></col>
+                      <col width="20%"></col>
+                      <col width="20%"></col>
+                      <col width="20%"></col>
+                    </colgroup>
+                    <thead>
+                      <th></th>
+                      <th>2016</th>
+                      <th>2017</th><th>2018</th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <th>나이스디앤비 TCB</th>
+                      <td className="text-center">-</td>
+                      <td className="text-center">T-6</td>
+                      <td className="text-center">T-5</td>
+                    </tr>
+                    <tr>
+                      <th>나이스평가정보 기업평가</th>
+                      <td className="text-center">-</td>
+                      <td className="text-center">-</td>
+                      <td className="text-center">B+ (2018.06.01)</td>
+                    </tr>
+                    <tr>
+                      <th>자산총계(백만)</th>
+                      <td className="text-right">84</td>
+                      <td className="text-right">133</td>
+                      <td className="text-center">-</td>
+                    </tr>
+                    <tr>
+                      <th>부채총계(백만)</th>
+                      <td className="text-right">58</td>
+                      <td className="text-right">75</td>
+                      <td className="text-center">-</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </section>
