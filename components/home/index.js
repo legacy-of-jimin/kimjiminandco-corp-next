@@ -211,6 +211,42 @@ export default class HomeComponent extends Component {
       }
     ])
 
+    const workedfor = this.shuffle([{
+      fileName: "tomntoms.png",
+      brandName: "탐앤탐스"
+    }, {
+      fileName: "cjenm.png",
+      brandName: "씨제이이엔엠"
+    }, {
+      fileName: "lg.png",
+      brandName: "LG전자",
+      padding: '4px 0'
+    }, {
+      fileName: "tck.png",
+      brandName: "트랜스코스모스",
+      padding: '4px 0'
+    }, {
+      fileName: "megaNEXT.gif",
+      brandName: "메가넥스트",
+      padding: '8px 0'
+    }, {
+      fileName: "easeandmore.png",
+      brandName: "이지앤모어",
+      padding: '12px 0'
+    }, {
+      fileName: "nolgong.jpeg",
+      brandName: "놀공",
+      padding: '8px 0'
+    }, {
+      fileName: "snu-css.png",
+      brandName: "서울대학교 사회과학",
+      padding: '8px 0'
+    }, {
+      fileName: "poti.png",
+      brandName: "좋은생각사람들",
+      padding: '10px 0'
+    }]);
+
     const c3Options = {
       data: {
         type: 'bar',
@@ -376,6 +412,20 @@ export default class HomeComponent extends Component {
                 )
               })}
             </Slider>
+          </section>
+          <section className="section section-ourworks">
+            <div className="section__header">
+              <div className="section__header__title">WORKED FOR/WITH</div>
+              <div className="section__header__desc">
+                {
+                  workedfor.map(({fileName, brandName, padding}) => {
+                    return (
+                      <img src={`/static/images/worked-for/${fileName}`} alt={brandName} title={brandName} style={{height: '36px', margin: '4px 12px', padding: padding}} />)
+                  })
+                }
+                <p>&nbsp;</p>
+              </div>
+            </div>
           </section>
           <section className="section section-agency">
             <div className="section__header">
