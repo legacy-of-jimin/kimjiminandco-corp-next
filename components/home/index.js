@@ -218,9 +218,9 @@ export default class HomeComponent extends Component {
       fileName: "cjenm.png",
       brandName: "씨제이이엔엠"
     }, {
-      fileName: "lg.png",
+      fileName: "lge.png",
       brandName: "LG전자",
-      padding: '4px 0'
+      padding: '8px 0'
     }, {
       fileName: "tck.png",
       brandName: "트랜스코스모스",
@@ -245,6 +245,18 @@ export default class HomeComponent extends Component {
       fileName: "poti.png",
       brandName: "좋은생각사람들",
       padding: '10px 0'
+    }, {
+      fileName: "fasoo.png",
+      brandName: "파수",
+      padding: '10px 0'
+    }, {
+      fileName: "honestfund.svg",
+      brandName: "어니스트펀드",
+      padding: '8px 0'
+    }, {
+      fileName: "peoplefund.png",
+      brandName: "피플펀드",
+      padding: '8px 0'
     }]);
 
     const c3Options = {
@@ -418,9 +430,9 @@ export default class HomeComponent extends Component {
               <div className="section__header__title">WORKED FOR/WITH</div>
               <div className="section__header__desc">
                 {
-                  workedfor.map(({fileName, brandName, padding}) => {
+                  workedfor.map(({fileName, brandName, padding}, index) => {
                     return (
-                      <img src={`/static/images/worked-for/${fileName}`} alt={brandName} title={brandName} style={{height: '36px', margin: '4px 12px', padding: padding}} />)
+                      <img key={index} src={`/static/images/worked-for/${fileName}`} alt={brandName} title={brandName} style={{height: '36px', margin: '4px 12px', padding: padding}} />)
                   })
                 }
                 <p>&nbsp;</p>
@@ -518,11 +530,13 @@ export default class HomeComponent extends Component {
                       <col width="15%"></col>
                     </colgroup>
                     <thead>
-                      <th></th>
-                      <th className="text-center">2016</th>
-                      <th className="text-center">2017</th>
-                      <th className="text-center">2018</th>
-                      <th className="text-center">2019</th>
+                      <tr>
+                        <th></th>
+                        <th className="text-center">2016</th>
+                        <th className="text-center">2017</th>
+                        <th className="text-center">2018</th>
+                        <th className="text-center">2019</th>
+                      </tr>
                     </thead>
                     <tbody>
                     <tr>
