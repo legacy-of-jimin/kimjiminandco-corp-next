@@ -7,6 +7,180 @@ import "@/static/stylesheets/home.scss";
 import 'c3/c3.min.css'
 
 export default class HomeComponent extends Component {
+  projects = this.shuffle([
+    {
+      title: '쿠잉 - 유튜브로 배우는 현지 영어',
+      description: '메가넥스트의 셀프 영어 학습 앱, 쿠잉의 안드로이드/iOS/웹 버전을 개발하였습니다.',
+      btns: [
+        {
+          text: 'Android',
+          link:
+            'https://play.google.com/store/apps/details?id=com.meganext.cooing'
+        },
+        {
+          text: 'iOS',
+          link: 'https://itunes.apple.com/us/app/cooing/id1330888189?mt=8'
+        },
+        {
+          text: 'Web',
+          link: 'https://www.cooing.tv/'
+        }
+      ]
+    },
+    {
+      title: '좋은생각사람들',
+      description:
+        '좋은생각 2017 리뉴얼 홈페이지를 Node.js 기반으로 개발하였습니다.',
+      btns: [
+        {
+          text: 'Web',
+          link: 'https://www.positive.co.kr'
+        }
+      ]
+    },
+    {
+      title: 'Scripted Repeater',
+      description:
+        'Scripted REPEATER는 어학 연습시 듣기구간 설정의 불편함을 혁신적으로 해결한 구간반복(찍찍이) 어학학습기입니다.',
+      btns: [
+        {
+          text: 'Android',
+          link:
+            'https://play.google.com/store/apps/details?id=com.zenrico.speech'
+        },
+        {
+          text: 'iOS',
+          link:
+            'https://itunes.apple.com/gb/app/autoscript-player/id1395780157?mt=8'
+        }
+      ]
+    },
+    {
+      title: '루트에너지',
+      description:
+        '루트에너지 P2P 투자 플랫폼을 Node.js / Reactjs 기반으로 개발하였습니다(NH P2P API).',
+      btns: [
+        {
+          text: 'Web',
+          link: 'https://www.rootenergy.co.kr'
+        }
+      ]
+    },
+    {
+      title: 'DOWING',
+      description:
+        '크라우드펀딩 배송 업무 서비스 두윙을 Node.js / Reactjs 기반으로 개발하였습니다.',
+      btns: [
+        {
+          text: 'Web',
+          link: 'http://www.do-wing.com'
+        }
+      ]
+    },
+    {
+      title: '피플펀드',
+      description:
+        'Facebook, Kakao OAuth 2.0 API 연동 부문과 UI 개발 부문을 보조하였습니다.',
+      btns: [
+        {
+          text: 'Web',
+          link: 'https://www.peoplefund.co.kr'
+        }
+      ]
+    },
+    {
+      title: '서울대학교 사회학과',
+      description:
+        '서울대학교 사회학과 홈페이지를 Node.js 기반으로 개발하였습니다.',
+      btns: [
+        {
+          text: 'Web',
+          link: 'http://sociology.snu.ac.kr/'
+        }
+      ]
+    },
+    {
+      title: '스튜디오온스타일',
+      description:
+        'CJ E&M이 운영하는 스튜디오온스타일 블로그 개발 및 FB Instant Articles 연동 부문을 컨설팅하였습니다.',
+      btns: [
+        {
+          text: 'Web',
+          link: 'https://www.studionstyle.com/'
+        }
+      ]
+    },
+    {
+      title: 'JT 금융그룹',
+      description:
+        '개발사에 시스템 설계를 지원하고 AWS 운용 가이드를 제공하였습니다(CloudFront, EC2 Load balancer).',
+      btns: [
+        {
+          text: 'Android',
+          link:
+            'https://play.google.com/store/apps/details?id=co.kr.jt_group.jtapp'
+        },
+        {
+          text: 'iOS',
+          link:
+            'https://itunes.apple.com/kr/app/jt금융그룹-jjumpy-friends/id1426232128?mt=8'
+        },
+        {
+          text: 'Web',
+          link: 'https://www.jt-group.co.kr'
+        }
+      ]
+    }
+  ])
+
+  workedfor = this.shuffle([{
+    fileName: "tomntoms.png",
+    brandName: "탐앤탐스"
+  }, {
+    fileName: "cjenm.png",
+    brandName: "씨제이이엔엠"
+  }, {
+    fileName: "lge.png",
+    brandName: "LG전자",
+    padding: '8px 0'
+  }, {
+    fileName: "tck.png",
+    brandName: "트랜스코스모스",
+    padding: '4px 0'
+  }, {
+    fileName: "megaNEXT.gif",
+    brandName: "메가넥스트",
+    padding: '8px 0'
+  }, {
+    fileName: "easeandmore.png",
+    brandName: "이지앤모어",
+    padding: '12px 0'
+  }, {
+    fileName: "nolgong.jpeg",
+    brandName: "놀공",
+    padding: '8px 0'
+  }, {
+    fileName: "snu-css.png",
+    brandName: "서울대학교 사회과학",
+    padding: '8px 0'
+  }, {
+    fileName: "poti.png",
+    brandName: "좋은생각사람들",
+    padding: '10px 0'
+  }, {
+    fileName: "fasoo.png",
+    brandName: "파수",
+    padding: '10px 0'
+  }, {
+    fileName: "honestfund.svg",
+    brandName: "어니스트펀드",
+    padding: '8px 0'
+  }, {
+    fileName: "peoplefund.png",
+    brandName: "피플펀드",
+    padding: '8px 0'
+  }]);
+
   state = {
     members: [
       '김지민',
@@ -24,11 +198,11 @@ export default class HomeComponent extends Component {
     ]
   }
   componentDidMount() {
-    this.setState({
-      members: this.shuffle(this.state.members)
-    }, () => {
-      console.log('member count', this.state.members.length)
-    })
+    // this.setState({
+    //   members: this.shuffle(this.state.members)
+    // }, () => {
+    //   console.log('member count', this.state.members.length)
+    // })
   }
   shuffle(array) {
     var currentIndex = array.length,
@@ -85,179 +259,6 @@ export default class HomeComponent extends Component {
         }
       ]
     }
-    const projects = this.shuffle([
-      {
-        title: '쿠잉 - 유튜브로 배우는 현지 영어',
-        description: '메가넥스트의 셀프 영어 학습 앱, 쿠잉의 안드로이드/iOS/웹 버전을 개발하였습니다.',
-        btns: [
-          {
-            text: 'Android',
-            link:
-              'https://play.google.com/store/apps/details?id=com.meganext.cooing'
-          },
-          {
-            text: 'iOS',
-            link: 'https://itunes.apple.com/us/app/cooing/id1330888189?mt=8'
-          },
-          {
-            text: 'Web',
-            link: 'https://www.cooing.tv/'
-          }
-        ]
-      },
-      {
-        title: '좋은생각사람들',
-        description:
-          '좋은생각 2017 리뉴얼 홈페이지를 Node.js 기반으로 개발하였습니다.',
-        btns: [
-          {
-            text: 'Web',
-            link: 'https://www.positive.co.kr'
-          }
-        ]
-      },
-      {
-        title: 'Scripted Repeater',
-        description:
-          'Scripted REPEATER는 어학 연습시 듣기구간 설정의 불편함을 혁신적으로 해결한 구간반복(찍찍이) 어학학습기입니다.',
-        btns: [
-          {
-            text: 'Android',
-            link:
-              'https://play.google.com/store/apps/details?id=com.zenrico.speech'
-          },
-          {
-            text: 'iOS',
-            link:
-              'https://itunes.apple.com/gb/app/autoscript-player/id1395780157?mt=8'
-          }
-        ]
-      },
-      {
-        title: '루트에너지',
-        description:
-          '루트에너지 P2P 투자 플랫폼을 Node.js / Reactjs 기반으로 개발하였습니다(NH P2P API).',
-        btns: [
-          {
-            text: 'Web',
-            link: 'https://www.rootenergy.co.kr'
-          }
-        ]
-      },
-      {
-        title: 'DOWING',
-        description:
-          '크라우드펀딩 배송 업무 서비스 두윙을 Node.js / Reactjs 기반으로 개발하였습니다.',
-        btns: [
-          {
-            text: 'Web',
-            link: 'http://www.do-wing.com'
-          }
-        ]
-      },
-      {
-        title: '피플펀드',
-        description:
-          'Facebook, Kakao OAuth 2.0 API 연동 부문과 UI 개발 부문을 보조하였습니다.',
-        btns: [
-          {
-            text: 'Web',
-            link: 'https://www.peoplefund.co.kr'
-          }
-        ]
-      },
-      {
-        title: '서울대학교 사회학과',
-        description:
-          '서울대학교 사회학과 홈페이지를 Node.js 기반으로 개발하였습니다.',
-        btns: [
-          {
-            text: 'Web',
-            link: 'http://sociology.snu.ac.kr/'
-          }
-        ]
-      },
-      {
-        title: '스튜디오온스타일',
-        description:
-          'CJ E&M이 운영하는 스튜디오온스타일 블로그 개발 및 FB Instant Articles 연동 부문을 컨설팅하였습니다.',
-        btns: [
-          {
-            text: 'Web',
-            link: 'https://www.studionstyle.com/'
-          }
-        ]
-      },
-      {
-        title: 'JT 금융그룹',
-        description:
-          '개발사에 시스템 설계를 지원하고 AWS 운용 가이드를 제공하였습니다(CloudFront, EC2 Load balancer).',
-        btns: [
-          {
-            text: 'Android',
-            link:
-              'https://play.google.com/store/apps/details?id=co.kr.jt_group.jtapp'
-          },
-          {
-            text: 'iOS',
-            link:
-              'https://itunes.apple.com/kr/app/jt금융그룹-jjumpy-friends/id1426232128?mt=8'
-          },
-          {
-            text: 'Web',
-            link: 'https://www.jt-group.co.kr'
-          }
-        ]
-      }
-    ])
-
-    const workedfor = this.shuffle([{
-      fileName: "tomntoms.png",
-      brandName: "탐앤탐스"
-    }, {
-      fileName: "cjenm.png",
-      brandName: "씨제이이엔엠"
-    }, {
-      fileName: "lge.png",
-      brandName: "LG전자",
-      padding: '8px 0'
-    }, {
-      fileName: "tck.png",
-      brandName: "트랜스코스모스",
-      padding: '4px 0'
-    }, {
-      fileName: "megaNEXT.gif",
-      brandName: "메가넥스트",
-      padding: '8px 0'
-    }, {
-      fileName: "easeandmore.png",
-      brandName: "이지앤모어",
-      padding: '12px 0'
-    }, {
-      fileName: "nolgong.jpeg",
-      brandName: "놀공",
-      padding: '8px 0'
-    }, {
-      fileName: "snu-css.png",
-      brandName: "서울대학교 사회과학",
-      padding: '8px 0'
-    }, {
-      fileName: "poti.png",
-      brandName: "좋은생각사람들",
-      padding: '10px 0'
-    }, {
-      fileName: "fasoo.png",
-      brandName: "파수",
-      padding: '10px 0'
-    }, {
-      fileName: "honestfund.svg",
-      brandName: "어니스트펀드",
-      padding: '8px 0'
-    }, {
-      fileName: "peoplefund.png",
-      brandName: "피플펀드",
-      padding: '8px 0'
-    }]);
 
     const c3Options = {
       data: {
@@ -397,7 +398,7 @@ export default class HomeComponent extends Component {
               </div>
             </div>
             <Slider {...settings} className="slider">
-              {projects.map((item, index) => {
+              {this.projects.map((item, index) => {
                 return (
                   <div key={index} className="slider__item">
                     <div className="slider__item__box">
@@ -430,7 +431,7 @@ export default class HomeComponent extends Component {
               <div className="section__header__title">WORKED FOR/WITH</div>
               <div className="section__header__desc">
                 {
-                  workedfor.map(({fileName, brandName, padding}, index) => {
+                  this.workedfor.map(({fileName, brandName, padding}, index) => {
                     return (
                       <img key={index} src={`/static/images/worked-for/${fileName}`} alt={brandName} title={brandName} style={{height: '36px', margin: '4px 12px', padding: padding}} />)
                   })
