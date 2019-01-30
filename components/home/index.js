@@ -225,7 +225,7 @@ export default class HomeComponent extends Component {
             '2017-12-31',
             '2018-12-31'
           ],
-          ['연간 매출액(억 원/공급가액)', 0.2348, 0.833, 1.9166, 2.8082, 4.1, 6.6751],
+          ['매출액(억 원)', 0.2348, 0.833, 1.9166, 2.8082, 4.1, 6.9751],
           ['상시 고용 인원(명)', 2, 4, 3, 3, 14, 13]
         ]
       },
@@ -417,14 +417,14 @@ export default class HomeComponent extends Component {
               </div>
             </div>
           </section>
-          <section className="section section-members">
+          {/* 단순히 이름만 나열하는 건 임팩트가 약해 보여서 추후 개선 <section className="section section-members">
             <div className="section__header">
               <div className="section__header__title">MEMBERS</div>
               <div className="section__header__desc">
                 {this.state.members.join(', ')}
               </div>
             </div>
-          </section>
+          </section> */}
           <section className="section section-ourstories">
             <div className="section__header">
               <div className="section__header__title">OUR STORIES</div>
@@ -453,25 +453,26 @@ export default class HomeComponent extends Component {
           </section>
           <section className="section section-statistics">
             <div className="section__header">
-              <div className="section__header__title">STATISTICS</div>
+              <div className="section__header__title">CREDIT &amp; FINANCE</div>
               <div className="section__header__desc">
-                <C3Chart
-                  data={c3Options.data}
-                  axis={c3Options.axis}
-                  color={c3Options.color}
-                />
-                <div style={{marginTop: '24px'}}>
+                <div>
+                  발주하신 프로젝트가 재무적 요인으로 실패하지 않게, 내부 구성원들이 재무적 요인으로 업무 집중도를 잃지 않게 안정적으로 운영하고 있습니다.
+                </div>
+                <div style={{marginTop: '24px', marginBottom: '24px'}}>
                   <table className="table">
                     <colgroup>
                       <col></col>
-                      <col width="20%"></col>
-                      <col width="20%"></col>
-                      <col width="20%"></col>
+                      <col width="15%"></col>
+                      <col width="15%"></col>
+                      <col width="15%"></col>
+                      <col width="15%"></col>
                     </colgroup>
                     <thead>
                       <th></th>
-                      <th>2016</th>
-                      <th>2017</th><th>2018</th>
+                      <th className="text-center">2016</th>
+                      <th className="text-center">2017</th>
+                      <th className="text-center">2018</th>
+                      <th className="text-center">2019</th>
                     </thead>
                     <tbody>
                     <tr>
@@ -479,28 +480,49 @@ export default class HomeComponent extends Component {
                       <td className="text-center">-</td>
                       <td className="text-center">T-6</td>
                       <td className="text-center">T-5</td>
+                      <td className="text-center">-</td>
                     </tr>
                     <tr>
                       <th>나이스평가정보 기업평가</th>
                       <td className="text-center">-</td>
                       <td className="text-center">-</td>
                       <td className="text-center">B+ (2018.06.01)</td>
+                      <td className="text-center">-</td>
                     </tr>
                     <tr>
                       <th>자산총계(백만)</th>
                       <td className="text-right">84</td>
                       <td className="text-right">133</td>
+                      <td className="text-center">(결산 전)</td>
                       <td className="text-center">-</td>
                     </tr>
                     <tr>
                       <th>부채총계(백만)</th>
                       <td className="text-right">58</td>
                       <td className="text-right">75</td>
+                      <td className="text-center">(결산 전)</td>
+                      <td className="text-center">-</td>
+                    </tr>
+                    <tr>
+                      <th>자본금(백만)</th>
+                      <td className="text-right">0.01</td>
+                      <td className="text-right">10</td>
+                      <td className="text-right">22</td>
                       <td className="text-center">-</td>
                     </tr>
                     </tbody>
                   </table>
                 </div>
+                <C3Chart
+                  data={c3Options.data}
+                  axis={c3Options.axis}
+                  color={c3Options.color}
+                />
+                <ul>
+                  <li>자산, 부채, 자본금, 상시 고용 인원은 결산 시점 기준</li>
+                  <li>신용등급은 해당 연도의 평가 시점 기준</li>
+                  <li>매출액은 공급가액 기준</li>
+                </ul>
               </div>
             </div>
           </section>
