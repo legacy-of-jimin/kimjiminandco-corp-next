@@ -541,6 +541,13 @@ export default class HomeComponent extends Component {
                     </thead>
                     <tbody>
                     <tr>
+                      <th>기술보증기금</th>
+                      <td className="text-center">-</td>
+                      <td className="text-center">-</td>
+                      <td className="text-center">-</td>
+                      <td className="text-center">벤처확인 (2/13)</td>
+                    </tr>
+                    <tr>
                       <th>나이스디앤비 TCB</th>
                       <td className="text-center">-</td>
                       <td className="text-center">T-6</td>
@@ -551,7 +558,7 @@ export default class HomeComponent extends Component {
                       <th>나이스평가정보 기업평가</th>
                       <td className="text-center">-</td>
                       <td className="text-center">-</td>
-                      <td className="text-center">B+ (2018.06.01)</td>
+                      <td className="text-center">B+ (6/1)</td>
                       <td className="text-center">-</td>
                     </tr>
                     <tr>
