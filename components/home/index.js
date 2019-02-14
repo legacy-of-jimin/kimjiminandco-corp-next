@@ -311,15 +311,15 @@ export default class HomeComponent extends Component {
                   </tr>
                   <tr>
                     <td>Web / Publishing</td>
-                    <td>2월 말부터 모든 규모의 프로젝트를 착수할 수 있습니다.</td>
+                    <td>중소규모 프로젝트를 3월 중순부터 착수할 수 있습니다.</td>
                   </tr>
                   <tr>
                     <td>Design</td>
-                    <td>1개월 이내 규모의 프로젝트를 15일 이내 착수할 수 있습니다.</td>
+                    <td>중소규모 프로젝트를 3월 중순부터 착수할 수 있습니다.</td>
                   </tr>
                   <tr>
                     <td>iOS</td>
-                    <td>1개월 이내 규모의 프로젝트를 15일 이내 착수할 수 있습니다.</td>
+                    <td>중소규모 프로젝트를 바로 착수할 수 있습니다.</td>
                   </tr>
                   <tr>
                     <td>Android</td>
@@ -327,7 +327,7 @@ export default class HomeComponent extends Component {
                   </tr>
                 </thead>
               </table>
-              <p>* 2018년 12월 31일 기준입니다.</p>
+              <p>* 2019년 2월 14일 기준입니다.</p>
               </div>
             </div>
           </section>
