@@ -197,7 +197,9 @@ export default class HomeComponent extends Component {
       '김보미',
       '김상철',
       '유은열'
-    ]
+    ],
+    projects: [],
+    workedfor: []
   }
   componentDidMount() {
     // this.setState({
@@ -205,6 +207,10 @@ export default class HomeComponent extends Component {
     // }, () => {
     //   console.log('member count', this.state.members.length)
     // })
+    this.setState({
+      projects: this.shuffle(this.projects),
+      workedfor: this.shuffle(this.workedfor)
+    })
   }
   shuffle(array) {
     var currentIndex = array.length,
@@ -400,7 +406,7 @@ export default class HomeComponent extends Component {
               </div>
             </div>
             <Slider {...settings} className="slider">
-              {this.projects.map((item, index) => {
+              {this.state.projects.map((item, index) => {
                 return (
                   <div key={index} className="slider__item">
                     <div className="slider__item__box">
@@ -433,7 +439,7 @@ export default class HomeComponent extends Component {
               <div className="section__header__title">WORKED FOR/WITH</div>
               <div className="section__header__desc">
                 {
-                  this.workedfor.map(({fileName, brandName, padding}, index) => {
+                  this.state.workedfor.map(({fileName, brandName, padding}, index) => {
                     return (
                       <img key={index} src={`/static/images/worked-for/${fileName}`} alt={brandName} title={brandName} style={{height: '36px', margin: '4px 12px', padding: padding}} />)
                   })
