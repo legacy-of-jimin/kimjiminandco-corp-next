@@ -7,7 +7,8 @@ import "@/static/stylesheets/home.scss";
 import 'c3/c3.min.css'
 
 export default class HomeComponent extends Component {
-  projects = this.shuffle([
+  //projects = this.shuffle([
+  projects = ([
     {
       title: '쿠잉 - 유튜브로 배우는 현지 영어',
       description: '메가넥스트의 셀프 영어 학습 앱, 쿠잉의 안드로이드/iOS/웹 버전을 개발하였습니다.',
@@ -133,7 +134,8 @@ export default class HomeComponent extends Component {
     }
   ])
 
-  workedfor = this.shuffle([{
+  //workedfor = this.shuffle([{
+  workedfor = ([{
     fileName: "tomntoms.png",
     brandName: "탐앤탐스"
   }, {
