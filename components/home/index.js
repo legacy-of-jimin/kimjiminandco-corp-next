@@ -342,13 +342,13 @@ export default class HomeComponent extends Component {
                     <tr>
                       <td>Web / Publishing</td>
                       <td>
-                        중소규모 프로젝트를 3월 중순부터 착수할 수 있습니다.
+                        중소규모 프로젝트를 바로 착수할 수 있습니다.
                       </td>
                     </tr>
                     <tr>
                       <td>Design</td>
                       <td>
-                        중소규모 프로젝트를 3월 중순부터 착수할 수 있습니다.
+                        중소규모 프로젝트를 3월 하순부터 착수할 수 있습니다.
                       </td>
                     </tr>
                     <tr>
@@ -357,11 +357,11 @@ export default class HomeComponent extends Component {
                     </tr>
                     <tr>
                       <td>Android</td>
-                      <td>모든 규모의 프로젝트를 바로 착수할 수 있습니다.</td>
+                      <td>중소규모 프로젝트를 바로 착수할 수 있습니다.</td>
                     </tr>
                   </thead>
                 </table>
-                <p>* 2019년 2월 14일 기준입니다.</p>
+                <p>* 2019년 3월 14일 기준입니다.</p>
               </div>
             </div>
           </section>
@@ -374,55 +374,32 @@ export default class HomeComponent extends Component {
                 <br />
                 <br />
                 <a
-                  href="https://itunes.apple.com/us/app/selfie-cat-camera/id1436129161?l=ko&ls=1&mt=8"
+                  href="https://itunes.apple.com/us/app//id1436939803?mt=8"
                   target="_blank"
                   rel="noopener noreferrer"
-                  title="셀냥이 Selfie Cat Camera"
+                  title="웨이홈 WAYHOM"
                 >
-                  <span>셀냥이 - 셀냥이와 함께 사진 한 컷</span>
+                  <span>웨이홈 - 안심귀가 보조 서비스</span>
                   <b>Go &#62;</b>
                 </a>
                 <br />
                 <a
-                  href="https://itunes.apple.com/us/app/sua-camera/id1387481956?l=ko&ls=1&mt=8"
+                  href="https://itunes.apple.com/us/developer//id1362978517"
                   target="_blank"
                   rel="noopener noreferrer"
-                  title="수아카메라 Sua Camera"
+                  title="기타 iOS 출시 앱"
                 >
-                  <span>수아카메라 - 영유아 디데이카메라</span>
+                  <span>기타 iOS 출시 앱</span>
                   <b>Go &#62;</b>
                 </a>
                 <br />
                 <a
-                  href="https://itunes.apple.com/us/app/custom-filter/id1404743996?l=ko&ls=1&mt=8"
+                  href="https://play.google.com/store/apps/developer?id=KimJimin+and+Company"
                   target="_blank"
                   rel="noopener noreferrer"
-                  title="커스텀필터 Custom Filter"
+                  title="기타 Android 출시 앱"
                 >
-                  <span>커스텀필터 - 내가 만드는 커스텀 필터 카메라</span>
-                  <b>Go &#62;</b>
-                </a>
-                <br />
-                <a
-                  href="https://itunes.apple.com/us/app/custom-filter-for-developer/id1435748965?mt=8"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="커스텀필터 Custom Filter for Developer"
-                >
-                  <span>
-                    커스텀필터 - 내가 만드는 커스텀 필터 카메라 Developer
-                    Edition
-                  </span>
-                  <b>Go &#62;</b>
-                </a>
-                <br />
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.toiletsoundblockerrn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Toilet Sound Blocker - 화장실 매너 아이템"
-                >
-                  <span>Toilet Sound Blocker - 화장실 매너 아이템</span>
+                  <span>기타 Android 출시 앱</span>
                   <b>Go &#62;</b>
                 </a>
               </div>
