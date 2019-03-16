@@ -374,7 +374,7 @@ export default class HomeComponent extends Component {
                 <br />
                 <br />
                 <a
-                  href="https://itunes.apple.com/us/app//id1436939803?mt=8"
+                  href="https://itunes.apple.com/us/app/%EC%9B%A8%EC%9D%B4%ED%99%88-wayhom/id1436939803"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="웨이홈 WAYHOM"
@@ -384,7 +384,7 @@ export default class HomeComponent extends Component {
                 </a>
                 <br />
                 <a
-                  href="https://itunes.apple.com/us/developer//id1362978517"
+                  href="https://itunes.apple.com/us/developer/%EA%B9%80%EC%A7%80%EB%AF%BC%EC%95%A4%EC%BB%B4%ED%8D%BC%EB%8B%88/id1362978517"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="기타 iOS 출시 앱"
