@@ -41,23 +41,6 @@ export default class HomeComponent extends Component {
       ]
     },
     {
-      title: "Scripted Repeater",
-      description:
-        "Scripted REPEATER는 어학 연습시 듣기구간 설정의 불편함을 혁신적으로 해결한 구간반복(찍찍이) 어학학습기입니다.",
-      btns: [
-        {
-          text: "Android",
-          link:
-            "https://play.google.com/store/apps/details?id=com.zenrico.speech"
-        },
-        {
-          text: "iOS",
-          link:
-            "https://itunes.apple.com/gb/app/autoscript-player/id1395780157?mt=8"
-        }
-      ]
-    },
-    {
       title: "루트에너지",
       description:
         "루트에너지 P2P 투자 플랫폼을 Node.js / Reactjs 기반으로 개발하였습니다(NH P2P API).",
@@ -209,13 +192,8 @@ export default class HomeComponent extends Component {
       "이진규",
       "이다정",
       "전새암",
-      "염종인",
       "김강일",
-      "강성찬",
-      "한태정",
       "김보미",
-      "김상철",
-      "유은열"
     ],
     projects: [],
     workedfor: []
@@ -325,7 +303,7 @@ export default class HomeComponent extends Component {
             {" "}
             반갑습니다, <b>김지민앤컴퍼니</b>입니다.
             <br />
-            저희는 웹사이트/앱 개발 아웃소싱 프로젝트를
+            저희는 웹사이트 개발/웹디자인 아웃소싱 프로젝트를
             <br />
             주로 수행하고 있습니다.
           </div>
@@ -342,26 +320,22 @@ export default class HomeComponent extends Component {
                     <tr>
                       <td>Web / Publishing</td>
                       <td>
-                        중소규모 프로젝트를 바로 착수할 수 있습니다.
+                        중소규모 프로젝트를 5월 중순부터 착수할 수 있습니다.
                       </td>
                     </tr>
                     <tr>
                       <td>Design</td>
                       <td>
-                        중소규모 프로젝트를 3월 하순부터 착수할 수 있습니다.
+                        중소규모 프로젝트를 5월 하순부터 착수할 수 있습니다.
                       </td>
                     </tr>
                     <tr>
-                      <td>iOS</td>
-                      <td>중소규모 프로젝트를 바로 착수할 수 있습니다.</td>
-                    </tr>
-                    <tr>
-                      <td>Android</td>
-                      <td>중소규모 프로젝트를 바로 착수할 수 있습니다.</td>
+                      <td>iOS/Android</td>
+                      <td>사업구조 개편으로 인해 기존 운영하던 앱 개발 부문을 19년 4월까지만 운영하게 되었습니다.</td>
                     </tr>
                   </thead>
                 </table>
-                <p>* 2019년 3월 14일 기준입니다.</p>
+                <p>* 2019년 4월 23일 기준입니다.</p>
               </div>
             </div>
           </section>
@@ -476,7 +450,7 @@ export default class HomeComponent extends Component {
               <div className="section__header__desc">
                 저희는 가볍고 효율적인 디지털 에이전시를 추구합니다.
                 <br />
-                중소규모 웹/앱 애플리케이션을 개발하기에 적합한 역량을 지니고
+                중소규모 홈페이지/웹 애플리케이션을 개발하기에 적합한 역량을 지니고
                 있습니다.
               </div>
             </div>
@@ -498,9 +472,6 @@ export default class HomeComponent extends Component {
                   있습니다.
                   <br />웹 표준에 충실한 HTML/CSS 퍼블리싱을 수행할 수 있으며
                   Front-end 프레임워크로 React를 도입하고 있습니다.
-                  <br />
-                  Swift, Kotlin 등 iOS와 Android 양쪽에서 가장 우수한 기반에서
-                  개발하기 위해 노력하고 있습니다.
                 </div>
               </div>
               <div className="section__content__item">
