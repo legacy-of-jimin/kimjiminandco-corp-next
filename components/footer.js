@@ -10,8 +10,9 @@ export default class FooterContainer extends Component {
             &nbsp;&nbsp;<div className="mobile-block" />서울특별시 서대문구
             연희로15길 64 &#60;03702&#62; &nbsp;&nbsp;<div className="mobile-block" />대표자:
             김지민 &nbsp;&nbsp;<div className="mobile-block"> </div>사업자등록번호
-            107-88-03228 &nbsp;&nbsp;<div className="mobile-block" />전화:
-            02-336-0887
+            107-88-03228
+             {/* &nbsp;&nbsp;<div className="mobile-block" />전화:
+            02-336-0887 */}
             <br />
             <div className="mobile-block">&nbsp;</div>2013.10.01 ~ Today
             &nbsp;&nbsp;<div className="mobile-block" />© 2018 KimJimin &#38;

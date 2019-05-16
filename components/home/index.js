@@ -306,6 +306,8 @@ export default class HomeComponent extends Component {
             저희는 웹사이트 개발/웹디자인 아웃소싱 프로젝트를
             <br />
             주로 수행하고 있습니다.
+            <br /><br />
+            <i>* 2019년 6월 첫 주부터 기존 서대문구 연희동에서 마포구 양화로 인근으로 사무실을 이전합니다.</i>
           </div>
           <section className="section section-ourstories">
             <div className="section__header">
@@ -320,13 +322,13 @@ export default class HomeComponent extends Component {
                     <tr>
                       <td>Web / Publishing</td>
                       <td>
-                        중소규모 프로젝트를 5월 중순부터 착수할 수 있습니다.
+                        중소규모 프로젝트를 7월 중순부터 착수할 수 있습니다.
                       </td>
                     </tr>
                     <tr>
                       <td>Design</td>
                       <td>
-                        중소규모 프로젝트를 5월 하순부터 착수할 수 있습니다.
+                        중소규모 프로젝트를 7월 중순부터 착수할 수 있습니다.
                       </td>
                     </tr>
                     <tr>
@@ -335,7 +337,7 @@ export default class HomeComponent extends Component {
                     </tr>
                   </thead>
                 </table>
-                <p>* 2019년 4월 23일 기준입니다.</p>
+                <p>* 2019년 5월 16일 기준입니다.</p>
               </div>
             </div>
           </section>
