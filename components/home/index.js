@@ -342,7 +342,7 @@ export default class HomeComponent extends Component {
             </div>
           </section>
 
-          <section className="section section-ourstories">
+          {/* <section className="section section-ourstories">
             <div className="section__header">
               <div className="section__header__title">WE MADE</div>
               <div className="section__header__desc">
@@ -380,7 +380,7 @@ export default class HomeComponent extends Component {
                 </a>
               </div>
             </div>
-          </section>
+          </section> */}
           <section className="section section-ourworks">
             <div className="section__header">
               <div className="section__header__title">OUR WORKS</div>
@@ -579,14 +579,14 @@ export default class HomeComponent extends Component {
                         <th>자산총계(백만)</th>
                         <td className="text-right">84</td>
                         <td className="text-right">133</td>
-                        <td className="text-center">(결산 전)</td>
+                        <td className="text-right">262</td>
                         <td className="text-center">-</td>
                       </tr>
                       <tr>
                         <th>부채총계(백만)</th>
                         <td className="text-right">58</td>
                         <td className="text-right">75</td>
-                        <td className="text-center">(결산 전)</td>
+                        <td className="text-right">93</td>
                         <td className="text-center">-</td>
                       </tr>
                       <tr>

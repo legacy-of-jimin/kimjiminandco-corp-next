@@ -15,7 +15,7 @@ export default class FooterContainer extends Component {
             02-336-0887 */}
             <br />
             <div className="mobile-block">&nbsp;</div>2013.10.01 ~ Today
-            &nbsp;&nbsp;<div className="mobile-block" />© 2018 KimJimin &#38;
+            &nbsp;&nbsp;<div className="mobile-block" />© 2019 KimJimin &#38;
             Company. All Rights Reserved.&nbsp;<div className="mobile-block" />·
             jimin@kimjiminand.co
           </div>
