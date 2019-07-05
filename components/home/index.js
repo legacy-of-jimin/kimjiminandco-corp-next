@@ -85,17 +85,6 @@ export default class HomeComponent extends Component {
       ]
     },
     {
-      title: "스튜디오온스타일",
-      description:
-        "CJ E&M이 운영하는 스튜디오온스타일 블로그 개발 및 FB Instant Articles 연동 부문을 컨설팅하였습니다.",
-      btns: [
-        {
-          text: "Web",
-          link: "https://www.studionstyle.com/"
-        }
-      ]
-    },
-    {
       title: "JT 금융그룹",
       description:
         "개발사에 시스템 설계를 지원하고 AWS 운용 가이드를 제공하였습니다(CloudFront, EC2 Load balancer).",
