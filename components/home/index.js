@@ -307,7 +307,7 @@ export default class HomeComponent extends Component {
             <br />
             주로 수행하고 있습니다.
             <br /><br />
-            <i>* 2019년 6월 첫 주부터 기존 서대문구 연희동에서 마포구 양화로 인근으로 사무실을 이전합니다.</i>
+            <i>* 2019년 6월 첫 주부터 위워크 홍대점으로 이전합니다.</i>
           </div>
           <section className="section section-ourstories">
             <div className="section__header">
