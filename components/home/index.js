@@ -295,8 +295,6 @@ export default class HomeComponent extends Component {
             저희는 웹사이트 개발/웹디자인 아웃소싱 프로젝트를
             <br />
             주로 수행하고 있습니다.
-            <br /><br />
-            <i>* 2019년 6월 첫 주부터 위워크 홍대점으로 이전합니다.</i>
           </div>
           <section className="section section-ourstories">
             <div className="section__header">
