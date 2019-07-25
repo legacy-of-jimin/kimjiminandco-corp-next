@@ -176,13 +176,6 @@ export default class HomeComponent extends Component {
 
   state = {
     members: [
-      "김지민",
-      "김아영",
-      "이진규",
-      "이다정",
-      "전새암",
-      "김강일",
-      "김보미",
     ],
     projects: [],
     workedfor: []
@@ -309,13 +302,13 @@ export default class HomeComponent extends Component {
                     <tr>
                       <td>Web / Publishing</td>
                       <td>
-                        중소규모 프로젝트를 7월 중순부터 착수할 수 있습니다.
+                        중소규모 프로젝트를 9월부터 착수할 수 있습니다.
                       </td>
                     </tr>
                     <tr>
                       <td>Design</td>
                       <td>
-                        중소규모 프로젝트를 7월 중순부터 착수할 수 있습니다.
+                        중소규모 프로젝트를 8월 중순부터 착수할 수 있습니다.
                       </td>
                     </tr>
                     <tr>
@@ -324,7 +317,7 @@ export default class HomeComponent extends Component {
                     </tr>
                   </thead>
                 </table>
-                <p>* 2019년 5월 16일 기준입니다.</p>
+                <p>* 2019년 7월 25일 기준입니다.</p>
               </div>
             </div>
           </section>
