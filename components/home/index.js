@@ -41,6 +41,17 @@ export default class HomeComponent extends Component {
       ]
     },
     {
+      title: "청어람ARMC",
+      description:
+        "청어람ARMC 2019 리뉴얼 홈페이지를 Next.js + Node.js 기반으로 개발하였습니다.",
+      btns: [
+        {
+          text: "Web",
+          link: "https://www.ichungeoram.com"
+        }
+      ]
+    },
+    {
       title: "루트에너지",
       description:
         "루트에너지 P2P 투자 플랫폼을 Node.js / Reactjs 기반으로 개발하였습니다(NH P2P API).",
@@ -302,7 +313,7 @@ export default class HomeComponent extends Component {
                     <tr>
                       <td>Web / Publishing</td>
                       <td>
-                        중소규모 프로젝트를 9월부터 착수할 수 있습니다.
+                        중소규모 프로젝트를 9월 중순부터 착수할 수 있습니다.
                       </td>
                     </tr>
                     <tr>
@@ -317,7 +328,7 @@ export default class HomeComponent extends Component {
                     </tr>
                   </thead>
                 </table>
-                <p>* 2019년 7월 25일 기준입니다.</p>
+                <p>* 2019년 7월 30일 기준입니다.</p>
               </div>
             </div>
           </section>
