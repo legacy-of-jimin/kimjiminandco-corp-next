@@ -41,6 +41,17 @@ export default class HomeComponent extends Component {
       ]
     },
     {
+      title: "화해(버드뷰)",
+      description:
+        "화해 2019 리뉴얼 홈페이지를 Python Django 기반으로 개발하였습니다.",
+      btns: [
+        {
+          text: "Web",
+          link: "http://www.birdview.kr/"
+        }
+      ]
+    },
+    {
       title: "청어람ARMC",
       description:
         "청어람ARMC 2019 리뉴얼 홈페이지를 Next.js + Node.js 기반으로 개발하였습니다.",
