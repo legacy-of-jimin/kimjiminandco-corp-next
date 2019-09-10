@@ -193,6 +193,11 @@ export default class HomeComponent extends Component {
       fileName: "dohands.png",
       brandName: "두손컴퍼니",
       padding: "4px 0"
+    },
+    {
+      fileName: "ic-logo-birdview.png",
+      brandName: "버드뷰(화해)",
+      padding: "0 0"
     }
   ];
 
@@ -313,6 +318,14 @@ export default class HomeComponent extends Component {
           </div>
           <section className="section section-ourstories">
             <div className="section__header">
+              <div className="section__header__title">LOCATION</div>
+              <div className="section__header__desc">
+                WeWork 광화문 지점 3층에 있습니다.
+              </div>
+            </div>
+          </section>
+          <section className="section section-ourstories">
+            <div className="section__header">
               <div className="section__header__title">AVAILABILITY</div>
               <div className="section__header__desc">
                 <table className="table">
@@ -324,13 +337,13 @@ export default class HomeComponent extends Component {
                     <tr>
                       <td>Web / Publishing</td>
                       <td>
-                        중소규모 프로젝트를 9월 중순부터 착수할 수 있습니다.
+                        중소규모 프로젝트를 11월경부터 착수할 수 있습니다.
                       </td>
                     </tr>
                     <tr>
                       <td>Design</td>
                       <td>
-                        중소규모 프로젝트를 8월 중순부터 착수할 수 있습니다.
+                        중소규모 프로젝트를 9월 중순부터 착수할 수 있습니다.
                       </td>
                     </tr>
                     <tr>
@@ -339,7 +352,7 @@ export default class HomeComponent extends Component {
                     </tr>
                   </thead>
                 </table>
-                <p>* 2019년 7월 30일 기준입니다.</p>
+                <p>* 2019년 9월 10일 기준입니다.</p>
               </div>
             </div>
           </section>
