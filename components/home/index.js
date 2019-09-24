@@ -314,8 +314,16 @@ export default class HomeComponent extends Component {
             <br />
             저희는 웹사이트 개발/웹디자인 아웃소싱 프로젝트를
             <br />
-            주로 수행하고 있습니다.
+            주로 수행하였습니다.
           </div>
+          <section className="section section-ourstories">
+            <div className="section__header">
+              <div className="section__header__title">NEWS</div>
+              <div className="section__header__desc">
+                김지민앤컴퍼니는 2019년 12월 31일까지 기존 사업 부문 및 계약을 모두 종결하고 두손컴퍼니에 인적 합병됩니다. 그동안 믿고 업무를 맡겨 주셔서 감사합니다.<br /><br /><a href="https://n.news.naver.com/article/003/0009469920" target="_blank">[관련 기사]</a>
+              </div>
+            </div>
+          </section>
           <section className="section section-ourstories">
             <div className="section__header">
               <div className="section__header__title">LOCATION</div>
@@ -324,78 +332,6 @@ export default class HomeComponent extends Component {
               </div>
             </div>
           </section>
-          <section className="section section-ourstories">
-            <div className="section__header">
-              <div className="section__header__title">AVAILABILITY</div>
-              <div className="section__header__desc">
-                <table className="table">
-                  <thead>
-                    <tr>
-                      <th>Team</th>
-                      <th>Availability</th>
-                    </tr>
-                    <tr>
-                      <td>Web / Publishing</td>
-                      <td>
-                        중소규모 프로젝트를 11월경부터 착수할 수 있습니다.
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Design</td>
-                      <td>
-                        중소규모 프로젝트를 9월 중순부터 착수할 수 있습니다.
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>iOS/Android</td>
-                      <td>사업구조 개편으로 인해 기존 운영하던 앱 개발 부문을 19년 4월까지만 운영하게 되었습니다.</td>
-                    </tr>
-                  </thead>
-                </table>
-                <p>* 2019년 9월 10일 기준입니다.</p>
-              </div>
-            </div>
-          </section>
-
-          {/* <section className="section section-ourstories">
-            <div className="section__header">
-              <div className="section__header__title">WE MADE</div>
-              <div className="section__header__desc">
-                사내 아이디어로 만든 자체 서비스입니다.
-                <br />
-                <br />
-                <a
-                  href="https://itunes.apple.com/us/app/%EC%9B%A8%EC%9D%B4%ED%99%88-wayhom/id1436939803"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="웨이홈 WAYHOM"
-                >
-                  <span>웨이홈 - 안심귀가 보조 서비스</span>
-                  <b>Go &#62;</b>
-                </a>
-                <br />
-                <a
-                  href="https://itunes.apple.com/us/developer/%EA%B9%80%EC%A7%80%EB%AF%BC%EC%95%A4%EC%BB%B4%ED%8D%BC%EB%8B%88/id1362978517"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="기타 iOS 출시 앱"
-                >
-                  <span>기타 iOS 출시 앱</span>
-                  <b>Go &#62;</b>
-                </a>
-                <br />
-                <a
-                  href="https://play.google.com/store/apps/developer?id=KimJimin+and+Company"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="기타 Android 출시 앱"
-                >
-                  <span>기타 Android 출시 앱</span>
-                  <b>Go &#62;</b>
-                </a>
-              </div>
-            </div>
-          </section> */}
           <section className="section section-ourworks">
             <div className="section__header">
               <div className="section__header__title">OUR WORKS</div>
