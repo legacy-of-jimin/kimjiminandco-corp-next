@@ -320,7 +320,7 @@ export default class HomeComponent extends Component {
             <div className="section__header">
               <div className="section__header__title">NEWS</div>
               <div className="section__header__desc">
-                김지민앤컴퍼니는 2019년 12월 31일까지 기존 사업 부문 및 계약을 모두 종결하고 두손컴퍼니에 인적 합병됩니다. 그동안 믿고 업무를 맡겨 주셔서 감사합니다.<br /><br /><a href="https://n.news.naver.com/article/003/0009469920" target="_blank">[관련 기사]</a>
+                김지민앤컴퍼니는 2019년 12월 31일까지 기존 사업 부문 및 계약을 모두 종결하고 두손컴퍼니에 인적 합병되었습니다. 그동안 믿고 업무를 맡겨 주셔서 감사합니다.<br /><br /><a href="https://n.news.naver.com/article/003/0009469920" target="_blank">[관련 기사]</a>
               </div>
             </div>
           </section>

@@ -21,9 +21,9 @@ class Nav extends React.Component {
             {/* <li>
               <Link to="/guide">외주 GUIDE</Link>
             </li> */}
-            <li>
+            {/* <li>
               <Link href="/pay">PAYMENT</Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
